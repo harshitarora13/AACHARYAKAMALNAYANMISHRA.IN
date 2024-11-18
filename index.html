@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>आचार्य कमल नयन मिश्रा | Aacharya Kamal Nayan Mishra</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Add these links in the <head> tag of your HTML -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script src="script.js"></script>
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="nav-container">
+    <div class="top-bar">
+      <div class="top-bar-content">
+        <div class="contact-info hi">
+          📞 संपर्क: +91 79882 96018 | 📧 ईमेल: kamalnayanmishra76703@gmail.com
+        </div>
+        <div class="contact-info en" style="display: none">
+          📞 Contact: +91 79882 96018 | 📧 Email: kamalnayanmishra76703@gmail.com
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="main-nav"><a href="#" class="logo">
+        <span class="logo-icon">☸</span>
+        <span class="hi">आचार्य कमल नयन मिश्रा</span>
+        <span class="en" style="display: none">Aacharya Kamal Nayan Mishra</span>
+      </a></div>
+      
+      <div class="nav-links" id="nav-links" >
+        <a href="#home" class="nav-link hi">मुख्य</a>
+        <a href="#home" class="nav-link en" style="display: none">Home</a>
+        <a href="#services" class="nav-link hi">सेवाएं</a>
+        <a href="#services" class="nav-link en" style="display: none">Services</a>
+        <a href="#about" class="nav-link hi">परिचय</a>
+        <a href="#about" class="nav-link en" style="display: none">About</a>
+        <a href="#testimonials" class="nav-link hi">प्रशंसापत्र</a>
+        <a href="#testimonials" class="nav-link en" style="display: none">Testimonials</a>
+        <a href="#contact" class="nav-link hi">संपर्क</a>
+        <a href="#contact" class="nav-link en" style="display: none">Contact</a>
+        <button class="lang-switch" onclick="toggleLanguage()">
+          English
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="assets\Blue Purple Horoscope Starry Sky Instagram Post (Video).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="hero-content">
+      <h1 class="hero-title hi">हर समस्या का समाधान</h1>
+      <h1 class="hero-title en" style="display: none">
+        Solution to Every Problem
+      </h1>
+
+      <p class="hero-subtitle hi">आपकी सभी समस्याओं का ज्योतिषीय समाधान</p>
+      <p class="hero-subtitle en" style="display: none">
+        Astrological Solutions for All Your Problems
+      </p>
+
+      <!-- Call-to-Action Buttons -->
+      <div class="cta-buttons">
+        <a href="#services" class="cta-btn cta-services">हमारी सेवाएं</a>
+        <a href="#contact" class="cta-btn cta-contact">संपर्क करें</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title hi">हमारी सेवाएं</h2>
+      <h2 class="section-title en" style="display: none">Our Services</h2>
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <img src="assets\icons\kundli.svg" alt="Birth Chart Analysis"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">जन्म कुंडली विश्लेषण</h3>
+          <h3 class="service-title en" style="display: none">Birth Chart Analysis</h3>
+          <p class="service-description hi">आपकी जन्म कुंडली का विस्तृत विश्लेषण और जीवन मार्गदर्शन</p>
+          <p class="service-description en" style="display: none">Detailed birth chart analysis and life guidance</p>
+        </div>
+        <!-- Service 2 -->
+        <div class="service-card">
+          <img src="assets\icons\vastu_shastras.svg" alt="Vastu Consultation"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">वास्तु परामर्श</h3>
+          <h3 class="service-title en" style="display: none">Vastu Consultation</h3>
+          <p class="service-description hi">घर और कार्यालय के लिए वास्तु समाधान</p>
+          <p class="service-description en" style="display: none">Vastu solutions for home and office</p>
+        </div>
+        <!-- Service 3 -->
+        <div class="service-card">
+          <img src="assets\icons\Match_Macking_banner.svg" alt="Marriage Matching"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">विवाह मिलान</h3>
+          <h3 class="service-title en" style="display: none">Marriage Matching</h3>
+          <p class="service-description hi">कुंडली मिलान और वैवाहिक जीवन परामर्श</p>
+          <p class="service-description en" style="display: none">Horoscope matching and marital life consultation</p>
+        </div>
+        <!-- Service 4 -->
+        <div class="service-card">
+          <img src="assets\icons\Gemstones.png" alt="Gemstone Consultation"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">रत्न परामर्श</h3>
+          <h3 class="service-title en" style="display: none">Gemstone Consultation</h3>
+          <p class="service-description hi">व्यक्तिगत रत्न सुझाव और पहनने की विधि</p>
+          <p class="service-description en" style="display: none">Personal gemstone recommendations and wearing methods
+          </p>
+        </div>
+        <!-- Additional Services -->
+        <div class="service-card">
+          <img src="assets\icons\vedicastro.jpg" alt="Vedic Astrology"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">वैदिक ज्योतिष सेवाएँ</h3>
+          <h3 class="service-title en" style="display: none">Vedic Astrology Services</h3>
+          <p class="service-description hi">वैदिक ज्योतिष परामर्श और उपाय</p>
+          <p class="service-description en" style="display: none">Vedic astrology consultations and remedies</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\numerology.jpg" alt="Numerology Consultation"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">अंक ज्योतिष परामर्श</h3>
+          <h3 class="service-title en" style="display: none">Numerology Consultation</h3>
+          <p class="service-description hi">संख्याओं के आधार पर जीवन की दिशा तय करें</p>
+          <p class="service-description en" style="display: none">Determine life path based on numbers</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\handpalmist.png" alt="Palmistry"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">हस्त रेखा ज्योतिष</h3>
+          <h3 class="service-title en" style="display: none">Palmistry</h3>
+          <p class="service-description hi">हाथों की रेखाओं के द्वारा भविष्यवाणी</p>
+          <p class="service-description en" style="display: none">Prediction based on palm lines</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\Finance_Horoscope.svg" alt="Finance & Wealth Astrology"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">वित्त और धन ज्योतिष</h3>
+          <h3 class="service-title en" style="display: none">Finance & Wealth Astrology</h3>
+          <p class="service-description hi">धन और समृद्धि के लिए ज्योतिष उपाय</p>
+          <p class="service-description en" style="display: none">Astrological remedies for wealth and prosperity</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\Education_Horoscope.svg" alt="Education & Academic Success"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">शिक्षा और सफलता ज्योतिष</h3>
+          <h3 class="service-title en" style="display: none">Education & Academic Success</h3>
+          <p class="service-description hi">शिक्षा और करियर में सफलता के लिए उपाय</p>
+          <p class="service-description en" style="display: none">Remedies for success in education and career</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\child.png" alt="Family & Children Astrology"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">परिवार और संतान ज्योतिष</h3>
+          <h3 class="service-title en" style="display: none">Family & Children Astrology</h3>
+          <p class="service-description hi">परिवार और संतान के सुख के लिए ज्योतिष</p>
+          <p class="service-description en" style="display: none">Astrology for family and children’s happiness</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\horoscope_grande.jpg" alt="Remedial Astrology"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">उपाय ज्योतिष</h3>
+          <h3 class="service-title en" style="display: none">Remedial Astrology</h3>
+          <p class="service-description hi">यंत्र, मंत्र और पूजा से उपाय</p>
+          <p class="service-description en" style="display: none">Remedies with Yantras, Mantras, and Poojas</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\Tarot Card Predictions.svg" alt="Tarot Card Reading"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">टैरो कार्ड रीडिंग</h3>
+          <h3 class="service-title en" style="display: none">Tarot Card Reading</h3>
+          <p class="service-description hi">आपकी समस्याओं का समाधान टैरो कार्ड द्वारा</p>
+          <p class="service-description en" style="display: none">Solution to your problems through tarot cards</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\Face-Reading.jpg" alt="Face Reading"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">फेस रीडिंग</h3>
+          <h3 class="service-title en" style="display: none">Face Reading</h3>
+          <p class="service-description hi">चेहरे के लक्षणों से भविष्यवाणी</p>
+          <p class="service-description en" style="display: none">Prediction based on facial features</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\vedicastro.jpg" alt="Lal Kitab Remedies"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">लाल किताब उपाय</h3>
+          <h3 class="service-title en" style="display: none">Lal Kitab Remedies</h3>
+          <p class="service-description hi">लाल किताब के उपाय से जीवन में सुधार</p>
+          <p class="service-description en" style="display: none">Improvement in life through Lal Kitab remedies</p>
+        </div>
+        <div class="service-card">
+          <img src="assets\icons\MedicalAstro.png" alt="Medical Astrology"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">चिकित्सा ज्योतिष</h3>
+          <h3 class="service-title en" style="display: none">Medical Astrology</h3>
+          <p class="service-description hi">स्वास्थ्य और शारीरिक समस्याओं के समाधान</p>
+          <p class="service-description en" style="display: none">Solutions for health and physical problems</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/icons/pandit3.webp" alt="Pooja"
+              style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi">सभी प्रकार की पूजा और हवन</h3>
+          <h3 class="service-title en" style="display: none">All Types of Pooja and Havan Performed</h3>
+          <p class="service-description hi">हम सभी प्रकार की पूजा और हवन आयोजित करते हैं</p>
+          <p class="service-description en" style="display: none">We perform all types of pooja and havan</p>
+      </div>      
+      </div>
+    </div>
+  </section>
+
+  <section id="additional-services" class="additional-services" style="text-align: center; padding: 40px 0;">
+    <div class="container">
+      <h2 class="section-title hi" style="margin-bottom: 30px;">अतिरिक्त सेवाएँ</h2>
+      <h2 class="section-title en" style="display: none; margin-bottom: 30px;">Additional Services</h2>
+
+      <!-- Services Grid -->
+      <div class="services-grid" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+        <!-- Ram Katha Card -->
+        <div class="service-card"
+          style="width: 30%; min-width: 280px; background: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+          <img src="assets\icons\shriramkatha.png" alt="Baghwatkatha Icon"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi" style="margin: 20px 0;">राम कथा</h3>
+          <h3 class="service-title en" style="display: none; margin: 20px 0;">Ram Katha</h3>
+          <p class="service-description hi">हिंदू धर्म के प्रमुख ग्रंथों में से एक</p>
+          <p class="service-description en" style="display: none;">One of the major scriptures of Hinduism</p>
+        </div>
+
+        <!-- Srimad Bhagwat Katha Card -->
+        <div class="service-card"
+          style="width: 30%; min-width: 280px; background: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+          <img src="assets\icons\bhagwatkatha.png" alt="Baghwatkatha Icon"
+            style="width:auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi" style="margin: 20px 0;">श्रीमद भागवत कथा</h3>
+          <h3 class="service-title en" style="display: none; margin: 20px 0;">Srimad Bhagwat Katha</h3>
+          <p class="service-description hi">भगवान श्री कृष्ण की कथा</p>
+          <p class="service-description en" style="display: none;">The story of Lord Krishna</p>
+        </div>
+
+        <!-- Baglamukhi Sadhna Card -->
+        <div class="service-card"
+          style="width: 30%; min-width: 280px; background: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+          <img src="assets\icons\baglamukhi.png" alt="Baglamukhi Sadhna Icon"
+            style="width: auto; height: 100px; margin-bottom: 10px;">
+          <h3 class="service-title hi" style="margin: 20px 0;">बगलामुखी साधना</h3>
+          <h3 class="service-title en" style="display: none; margin: 20px 0;">Baglamukhi Sadhna</h3>
+          <p class="service-description hi">दुश्मनों पर विजय प्राप्त करने की साधना</p>
+          <p class="service-description en" style="display: none;">Sadhna to achieve victory over enemies</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image">
+          <video autoplay muted loop class="video">
+            <source src="assets\AacharyaKamal.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title section-titleabout hi">
+            आचार्य जी का परिचय
+          </h2>
+          <h2 class="section-title section-titleabout en" style="display: none">
+            About Aacharya Ji
+          </h2>
+          <p class="hi">
+            आचार्य कमल नयन मिश्रा जी काशी के प्रतिष्ठित ज्योतिषाचार्य हैं।
+            वाराणसी के संपूर्णानंद संस्कृत विश्वविद्यालय से ज्योतिष में
+            स्नातकोत्तर की उपाधि प्राप्त की है। 10+ वर्षों के अनुभव के साथ, वे
+            वैदिक ज्योतिष, वास्तु शास्त्र और कर्मकांड में विशेषज्ञ हैं।
+          </p>
+          <p class="en" style="display: none">
+            Aacharya Kamal Nayan Mishra is a prestigious astrologer from
+            Kashi. He holds a post-graduate degree in Astrology from
+            Sampurnanand Sanskrit University, Varanasi. With 20+ years of
+            experience, he specializes in Vedic astrology, Vastu Shastra, and
+            rituals.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-number">10+</div>
+              <div class="hi">वर्षों का अनुभव</div>
+              <div class="en" style="display: none">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">10000+</div>
+              <div class="hi">संतुष्ट ग्राहक</div>
+              <div class="en" style="display: none">Satisfied Clients</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">50+</div>
+              <div class="hi">देशों में सेवाएं</div>
+              <div class="en" style="display: none">Countries Served</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">99%</div>
+              <div class="hi">सटीक भविष्यवाणी</div>
+              <div class="en" style="display: none">Accurate Predictions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallerty Section -->
+  <section id="gallery" class="gallery">
+    <h2 class="section-title hi">गैलरी</h2>
+    <h2 class="section-title en" style="display: none">Gallery</h2>
+  
+    <div class="gallery-slider">
+      <div class="gallery-item">
+        <img src="assets\icons\bhagwatkatha.png" alt="Image 1">
+      </div>
+      <div class="gallery-item">
+        <img src="assets\icons\Finance_Horoscope.svg" alt="Image 2">
+      </div>
+      <div class="gallery-item">
+        <img src="assets\icons\online-vastu.jpg" alt="Image 3">
+      </div>
+      <div class="gallery-item">
+        <img src="assets\icons\vedicastro.jpg" alt="Image 4">
+      </div>
+      <div class="gallery-item">
+        <img src="assets\icons\Gemstones.png" alt="Image 5">
+      </div>
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+  
+  
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 class="section-title section-titleabout  hi">लोगों की राय</h2>
+      <h2 class="section-title section-titleabout  en" style="display: none">What People Say</h2>
+
+      <div class="testimonials-container">
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img
+              src="https://images.unsplash.com/photo-1618306842557-a2515acf2112?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Testimonial 1" />
+          </div>
+          <p class="testimonial-text">
+            "Acharya Kamal Nayan Mishra helped me solve a major issue that was
+            troubling my life for years. His guidance is priceless!"
+          </p>
+          <p class="testimonial-author">Vikram Singh</p>
+        </div>
+
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img src="https://imgcdn.stablediffusionweb.com/2024/9/10/1fa4230a-6bab-409b-a7de-510ef89abc9b.jpg"
+              alt="Testimonial 2" />
+          </div>
+          <p class="testimonial-text">
+            "I have followed Acharya Kamal Nayan Mishra's advice and seen
+            remarkable changes in my life. Highly recommended!"
+          </p>
+          <p class="testimonial-author">Aarti Kumar</p>
+        </div>
+
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img
+              src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Testimonial 3" />
+          </div>
+          <p class="testimonial-text">
+            "His astrological predictions are spot on! I trust his guidance in
+            all aspects of life."
+          </p>
+          <p class="testimonial-author">Rajesh Sharma</p>
+        </div>
+
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img
+              src="https://st5.depositphotos.com/34818944/68285/i/450/depositphotos_682854258-stock-photo-portrait-happy-indian-woman-saree.jpg"
+              alt="Testimonial 4" />
+          </div>
+          <p class="testimonial-text">
+            "I got the answers I was seeking through Acharya Kamal Nayan
+            Mishra's consultations. Truly insightful!"
+          </p>
+          <p class="testimonial-author">Deepa Verma</p>
+        </div>
+
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img
+              src="https://images.pexels.com/photos/2287252/pexels-photo-2287252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Testimonial 5" />
+          </div>
+          <p class="testimonial-text">
+            "His wisdom and astrological expertise helped me find peace and
+            clarity in difficult times."
+          </p>
+          <p class="testimonial-author">Manoj Singh</p>
+        </div>
+
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img src="https://idaho-o.com/wp-content/uploads/2024/02/image.jpeg" alt="Testimonial 6" />
+          </div>
+          <p class="testimonial-text">
+            "Thanks to Acharya Kamal Nayan Mishra for his precise readings. I
+            feel much more confident in life."
+          </p>
+          <p class="testimonial-author">Suman Agarwal</p>
+        </div>
+
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img
+              src="https://img.freepik.com/free-photo/indian-woman-portrait-temple_53876-13366.jpg?t=st=1731318304~exp=1731321904~hmac=ac9c6052b68e0e0be397680c1669576ce866a8bf7c9e0120baa75f473bb85e2a&w=740"
+              alt="Testimonial 7" />
+          </div>
+          <p class="testimonial-text">
+            "I had several doubts, but Acharya Kamal Nayan Mishra’s advice
+            brought clarity and direction."
+          </p>
+          <p class="testimonial-author">Pooja Mehra</p>
+        </div>
+
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img src="https://i.pinimg.com/736x/7a/dd/14/7add1435cefa0ab75083749fe06720e0.jpg" alt="Testimonial 8" />
+          </div>
+          <p class="testimonial-text">
+            "His gemstone recommendations made a huge difference in my life.
+            Highly thankful!"
+          </p>
+          <p class="testimonial-author">Vikram Joshi</p>
+        </div>
+
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img src="https://i.pinimg.com/564x/5d/a8/76/5da8768c07eb3db7dbf5f394ab4444a6.jpg" alt="Testimonial 9" />
+          </div>
+          <p class="testimonial-text">
+            "Acharya Kamal Nayan Mishra’s poojas and rituals helped me
+            overcome many life challenges."
+          </p>
+          <p class="testimonial-author">Ravi Gupta</p>
+        </div>
+
+        <div class="testimonial-card animate">
+          <div class="testimonial-avatar">
+            <img
+              src="https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400860.jpg?t=st=1731318355~exp=1731321955~hmac=4830442ea5f94058e090981ffb4461a430d93c888bb9860f8bbdccac1dc7bc4a&w=740"
+              alt="Testimonial 10" />
+          </div>
+          <p class="testimonial-text">
+            "I feel truly blessed to have met Acharya Kamal Nayan Mishra. His
+            astrology services are a game-changer!"
+          </p>
+          <p class="testimonial-author">Neha Rathi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title  hi">संपर्क करें</h2>
+      <h2 class="section-title  en" style="display: none">
+        Contact Us
+      </h2>
+
+      <div class="row">
+        <!-- Contact Details (Left side) -->
+        <div class="col-md-6 contact-details">
+          <h3 class="hi">संपर्क विवरण</h3>
+          <h3 class="en" style="display: none">Contact Details</h3>
+
+          <ul>
+            <li>
+              <strong class="hi">ईमेल:</strong>
+              <span class="en" style="display: none">Email:</span>
+              <a href="mailto:kamalnayanmishra76703@gmail.com" class="email">kamalnayanmishra76703@gmail.com</a>
+            </li>
+            <li>
+              <strong class="hi">फ़ोन नंबर:</strong>
+              <span class="en" style="display: none">Phone Number:</span>
+              <a href="tel:+917988296018" class="phone">+91 79882 96018</a>
+            </li>
+            <li>
+              <strong class="hi">पता:</strong>
+              <span class="en" style="display: none">Address:</span>
+              <span>Shri Ganesh Dham, Big Shiv Temple, Vaish College Road, </span> Railway Colony
+              Rohtak, HR, 124001, IN</span>
+            </li>
+            <li>
+              <div id="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13972.955105163694!2d76.55550308715816!3d28.891251800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d85b79ef8e9b1%3A0xb7b4106d270711bf!2sBig%20Shiv%20Temple%20Rohtak!5e0!3m2!1sen!2sin!4v1731826402975!5m2!1sen!2sin"
+                  width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Form (Right side) -->
+        <div class="col-md-6 contact-form-container">
+          <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                  <label class="form-label hi">नाम</label>
+                  <label class="form-label en" style="display: none">Name</label>
+                  <input type="text" class="form-input" id="name" placeholder="Enter your name" required />
+              </div>
+      
+              <div class="form-group">
+                  <label class="form-label hi">जन्म तिथि</label>
+                  <label class="form-label en" style="display: none">Date of Birth</label>
+                  <input type="date" class="form-input" id="dob" required />
+              </div>
+      
+              <div class="form-group">
+                  <label class="form-label hi">जन्म समय</label>
+                  <label class="form-label en" style="display: none">Birth Time</label>
+                  <input type="time" class="form-input" id="birth_time" required />
+              </div>
+      
+              <div class="form-group">
+                  <label class="form-label hi">जन्म स्थान</label>
+                  <label class="form-label en" style="display: none">Location</label>
+                  <input type="text" class="form-input" id="location" placeholder="Enter Birth location" required />
+              </div>
+      
+              <div class="form-group">
+                  <label class="form-label hi">फ़ोन नंबर</label>
+                  <label class="form-label en" style="display: none">Phone Number</label>
+                  <input type="tel" class="form-input" id="phone" placeholder="Enter your phone number" required />
+              </div>
+      
+              <div class="form-group">
+                  <label class="form-label hi">समस्या विवरण</label>
+                  <label class="form-label en" style="display: none">Problem Description</label>
+                  <textarea class="form-input" id="problem_description" rows="5" placeholder="Enter your Problem" required></textarea>
+              </div>
+      
+              <button type="submit" class="submit-btn hi">भेजें</button>
+              <button type="submit" class="submit-btn en" style="display: none">
+                  Send
+              </button>
+          </form>
+      </div>      
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- About Section -->
+      <div class="footer-section">
+        <h2 class="footer-title">
+          <span class="hi">हमारे बारे में</span>
+          <span class="en" style="display: none">About Us</span>
+        </h2>
+        <p class="hi">
+          आचार्य कमल नयन मिश्रा, प्रसिद्ध ज्योतिषी, अपने अनुभव और ज्ञान से लोगों की समस्याओं का समाधान प्रदान करते हैं। 
+          आपके जीवन को बेहतर बनाने के लिए हम यहां हैं।
+        </p>
+        <p class="en" style="display: none">
+          Aacharya Kamal Nayan Mishra, a renowned astrologer, offers solutions to life's challenges with his expertise. 
+          We are here to help you lead a better life.
+        </p>
+      </div>
+  
+      <!-- Quick Links Section -->
+      <div class="footer-section links">
+        <h2 class="footer-title">
+          <span class="hi">त्वरित लिंक</span>
+          <span class="en" style="display: none">Quick Links</span>
+        </h2>
+        <ul class="footer-list">
+          <li><a href="#home" class="hi">मुख्य पृष्ठ</a><a href="#home" class="en" style="display: none">Home</a></li>
+          <li><a href="#services" class="hi">सेवाएं</a><a href="#services" class="en" style="display: none">Services</a></li>
+          <li><a href="#about" class="hi">हमारे बारे में</a><a href="#about" class="en" style="display: none">About Us</a></li>
+          <li><a href="#contact" class="hi">संपर्क करें</a><a href="#contact" class="en" style="display: none">Contact</a></li>
+        </ul>
+      </div>
+  
+      <!-- Contact Section -->
+      <div class="footer-section">
+        <h2 class="footer-title">
+          <span class="hi">हमसे संपर्क करें</span>
+          <span class="en" style="display: none">Contact Us</span>
+        </h2>
+        <ul class="footer-list">
+          <li><i class="fa-solid fa-phone"></i> <span class="hi">+91 7988296018</span><span class="en" style="display: none">+91 7988296018</span></li>
+          <li><i class="fa-sharp fa-solid fa-envelopes-bulk"></i> <span class="hi">kamalmishra76703@gmail.com</span><span class="en" style="display: none">kamalmishra76703@gmail.com</span></li>
+          <li><i class="fa-sharp-duotone fa-solid fa-map-location-dot"></i>
+            <span class="hi">श्री गणेश मंदिर, बड़ी शिव मंदिर, वैश्य कॉलेज रोड, रोहतक</span>
+            <span class="en" style="display: none">Shri Ganesh Mandir, Big Shiv Temple, Vaish College Road, Rohtak</span>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Social Media Section -->
+      <div class="footer-section social">
+        <h2 class="footer-title">
+          <span class="hi">हमें फॉलो करें</span>
+          <span class="en" style="display: none">Follow Us</span>
+        </h2>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="hi">&copy; 2024 | सभी अधिकार सुरक्षित। | Developed By EthicsComputer India No.1 Digital Marketing Company</span>
+      <span class="en" style="display: none">&copy; 2024 | All rights reserved. | Developed By EthicsComputer India No.1 Digital Marketing Company</span>
+    </div>
+  </footer> 
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+    
+        const name = document.getElementById('name').value;
+        const dob = document.getElementById('dob').value;
+        const birthTime = document.getElementById('birth_time').value;
+        const location = document.getElementById('location').value;
+        const phone = document.getElementById('phone').value;
+        const problemDescription = document.getElementById('problem_description').value;
+    
+        // WhatsApp URL
+        const whatsappMessage = `https://wa.me/917988296018?text=${encodeURIComponent(
+            `Name: ${name}\nDate of Birth: ${dob}\nBirth Time: ${birthTime}\nLocation: ${location}\nPhone: ${phone}\nProblem: ${problemDescription}`
+        )}`;
+        window.open(whatsappMessage, '_blank');
+    });
+    // EmailJS Parameters
+    const emailServiceID = 'service_et27zxq'; // Replace with your actual Service ID
+    const emailTemplateID = 'template_1xnrvtm'; // Replace with your actual Template ID
+    const userID = '7HhNLHgQLGaVBwl2Ts1Ss'; // Replace with your actual User ID
+    emailjs.init({
+      publicKey: '0w4aLlrvdr_-CNfbS',
+    });
+
+    const emailParams = {
+        name: name,
+        dob: dob,
+        birth_time: birthTime,
+        location: location,
+        phone: phone,
+        problem_description: problemDescription
+    };
+
+    // Send Email
+    emailjs.send(emailServiceID, emailTemplateID, emailParams, userID)
+        .then(function (response) {
+            console.log('Email sent successfully!', response);
+            alert('Email sent successfully!');
+        })
+        .catch(function (error) {
+            console.error('Error sending email:', error);
+            alert('Failed to send email. Please try again.');
+        });
+
+    </script>
+</body>
+
+</html>
